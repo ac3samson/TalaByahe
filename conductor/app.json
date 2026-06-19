@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "TalaByahe Conductor",
+    "slug": "talabyahe-conductor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B4332"
+    },
+    "android": {
+      "package": "com.talabyahe.conductor",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1B4332"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-after-eas-init"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
